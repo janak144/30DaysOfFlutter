@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/utilits/routes.dart';
 import 'package:untitled/widgets/themes.dart';
-import  'package:velocity_x/velocity_x.dart'
+import 'package:velocity_x/velocity_x.dart';
 
 class LoginPage extends StatefulWidget {
   @override
