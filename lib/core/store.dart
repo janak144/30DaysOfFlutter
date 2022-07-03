@@ -1,10 +1,12 @@
-import 'package:untitled/models/cart.dart';
-import 'package:untitled/models/catalog.dart';
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:velocity_x/velocity_x.dart';
 
-class MyStore extends VxState {
-  CatalogModel catalog;
-  CartModel cart;
+import 'package:untitled/models/cart.dart';
+import 'package:untitled/models/catalog.dart';
+
+class MyStore extends VxStore {
+  late CatalogModel catalog;
+  late CartModel cart;
 
   MyStore() {
     catalog = CatalogModel();
